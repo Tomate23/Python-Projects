@@ -1,0 +1,12 @@
+#2.2 Crea un programa llamado ex_2_2, que pida tres notas y calcule la media.
+n1=float(input("introduce el valor de la nota 1:\n"))
+n2=float(input("introduce el valor de la nota 2:\n"))
+n3=float(input("introduce el valor de la nota 3:\n"))
+while n1<0 or n2<0 or n3<0:
+    print("por favor introduce numeros positivos!!!")
+    n1=float(input("introduce el valor de la nota 1:\n"))
+    n2=float(input("introduce el valor de la nota 2:\n"))
+    n3=float(input("introduce el valor de la nota 3:\n"))
+media=(n1+n2+n3)/3
+print(f"La nota media de las tres notas que has introducido es:{media}")
+    

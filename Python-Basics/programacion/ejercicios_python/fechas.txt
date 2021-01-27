@@ -1,0 +1,43 @@
+dia=int(input("introduce un dia en formato:/dd/:\n"))
+mes=int(input("introduce un mes en formato:/mm/:\n"))
+año=int(input("introduce un año en formato:/aaaa/:\n"))
+bici=(año % 4) / 4 
+
+if mes == 4 and dia > 30:
+    print("ese mes no tiene mas de 30 dias, numero de dias de para ese mes invalido")
+elif mes== 6 and dia > 30:
+    print("ese mes no tiene mas de 30 dias, numero de dias de para ese mes invalido")
+elif mes== 9 and dia > 30:
+    print("ese mes no tiene mas de 30 dias, numero de dias de para ese mes invalido")
+elif mes== 11 and dia > 30:
+    print("ese mes no tiene mas de 30 dias, numero de dias de para ese mes invalido")   
+
+    if mes == 1 and dia > 31:
+        print("ese mes no tiene mas de 31 dias, numero de dias de para ese mes invalido")
+    elif mes == 3 and dia > 31:
+        print("ese mes no tiene mas de 31 dias, numero de dias de para ese mes invalido")   
+    elif mes == 5 and dia > 31:
+        print("ese mes no tiene mas de 31 dias, numero de dias de para ese mes invalido")
+    elif mes == 7 and dia > 31:
+        print("ese mes no tiene mas de 31 dias, numero de dias de para ese mes invalido")
+    elif mes == 8 and dia > 31:
+        print("ese mes no tiene mas de 31 dias, numero de dias de para ese mes invalido")
+    elif mes == 10 and dia > 31:
+        print("ese mes no tiene mas de 31 dias, numero de dias de para ese mes invalido")
+    elif mes == 12 and dia > 31:
+        print("ese mes no tiene mas de 31 dias, numero de dias de para ese mes invalido")
+else:
+    print("fecha valida")
+    
+        
+        
+        
+if bici == 0:
+     print("<<<segun este año, el mes 2 tiene 29 dias, fecha valida>>>")     
+elif mes==2 and dia > 28:
+    print("ese mes no tiene mas de 28 dias, numero de dias de para ese mes invalido")
+elif dia<28:
+    print("mes valido")  
+else:
+    print("<<<fecha invalida>>>")
+    

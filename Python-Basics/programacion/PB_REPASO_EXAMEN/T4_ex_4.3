@@ -1,0 +1,27 @@
+"""
+4.3 Crea un programa llamado ex_4_3, que calcule el factorial de un número entero introducido por
+el usuario. El número introducido por el usuario debe ser más grande que 0 y más pequeño que
+20. Si no fuera así, el programa debe pedirlo de nuevo tantas veces como sea necesario.
+Recuerda que el factorial de un número entero es dicho número multiplicado por todos sus
+antecesores:
+Recuerda que el factorial de un número entero es dicho número multiplicado por todos sus
+antecesores: n!= nx(n-1) x nx(n-1) x...x 1
+
+n=int(input("introduce un valor para n:\n"))
+print("------------------------------------")
+mult=1
+nr=n
+while nr!=1:
+    mult=mult*n
+    print(mult)
+    nr-=1
+    n-=1
+"""
+n=int(input("introduce un valor para n:\n"))
+print("------------------------------------")
+mult=1
+nr=n
+for x in range(1,n):
+    mult*=nr
+    print(mult)
+    nr-=1
